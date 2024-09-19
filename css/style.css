@@ -1,0 +1,1184 @@
+*{
+	box-sizing:border-box;
+}
+body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    }
+.container-fluid{
+     width:100%;
+}
+
+.bg-pozicija{
+    background-position: center;
+    background-size: cover;
+}
+.centar{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+}
+.prozirnost{
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    height: 100%;
+}
+.pos{
+    position: absolute;
+    top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }
+a{
+    text-decoration: none;
+}
+.yellow{
+    color:#F2C64D;
+    font-family: 'Pacifico', cursive;
+}
+.bg-yellow{
+    background-color: #F2C64D;
+}
+.orange{
+    color: #F0542C;
+}
+.bg-orange{
+    background-color: #F0542C;
+}
+.black{
+    color: #1A0D01;
+}
+.bg-black{
+    background-color: black;
+}
+.gray{
+    color:#6E6E6E;
+}
+.bg-gray{
+    background-color:#6E6E6E ;
+}
+.paytone{
+    font-family: 'Paytone One', sans-serif;
+    color:white;
+}
+.white{
+    color: white;
+}
+
+
+
+
+
+
+
+
+.logo{
+    background-image: url(../img/logo.png);
+}
+.banner{
+    background-image: url(../img/banner.png);
+}
+.yellow-picture{
+    background-image: url(../img/shape.png);
+}
+.bg{
+    background-image: url(../img/bgimage.png);
+}
+.prva{
+    background-image: url(../img/burger1.png);
+}
+.druga{
+    background-image: url(../img/burger2.png);
+}
+.treca{
+    background-image: url(../img/burger3.png);
+}
+.cetvrta{
+    background-image: url(../img/burger4.png);
+}
+.peta{
+    background-image: url(../img/burger5.png);
+}
+.sesta{
+    background-image: url(../img/burger6.png);
+}
+.sedma{
+    background-image: url(../img/burger7.png);
+}
+.osma{
+    background-image: url(../img/burger8.png);
+}
+.slika1{
+    background-image: url(../img/1.png);
+}
+.slika2{
+    background-image: url(../img/2.png);
+}
+.big{
+    background-image: url(../img/about1.png);
+}
+.small{
+    background-image: url(../img/about2.png);
+}
+.jes{
+    background-image: url(../img/jessica-signature.png);
+}
+.video{
+    background-image: url(../img/video.png);
+}
+.slika3{
+    background-image: url(../img/kris.jpg);
+}
+.slika4{
+    background-image: url(../img/testimonials.png);
+}
+.stars{
+    background-image: url(../img/stars.png);
+}
+.img1{
+    background-image: url(../img/instagram1.png);
+}
+.img2{
+    background-image: url(../img/instagram2.png);
+}
+.img3{
+    background-image: url(../img/instagram3.png);
+}
+.img4{
+    background-image: url(../img/instagram4.png);
+}
+.nav1{
+    width:100%;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    z-index: 1;
+    opacity:1;
+}
+.logo1{
+    width:70px;
+    height:30px;
+    margin: 5px 0px 0px 5px;
+}
+.nav-menu{
+    width:40px;
+    height:40px;
+}
+
+
+
+.nav2{
+   
+    width:100%;
+    height:40px;
+    opacity:0;
+   display:none;
+  
+}
+.logo2{
+    
+    width:120px;
+    height:40px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.aplication{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+.phone-number{
+    border-radius: 25px;
+    border:1px solid #F2C64D;
+    color:#F2C64D;
+    padding:5px 20px;
+ }
+.linkovi{
+    padding:0px 10px;
+    color:white;
+    text-decoration:none;
+    font-size:12px;
+    position:relative;
+}
+
+    
+    
+
+
+
+
+.sekcija1{
+    width:100%;
+    height:250px;
+}
+.shape{
+    width: 135px;
+    height: 50px;
+    margin:0px;
+    font-size: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.black1{
+    padding:30px 50px;
+}
+.black1 >h1{
+    margin:0px;
+    line-height: 35px;
+    font-weight:100;
+    font-size: 30px;
+    position: relative;
+}
+.maxican{
+    position: absolute;;
+    bottom: -25px;
+    left: 35px;
+    font-size: 40px;
+}
+.left-arrow {
+    width: 30px;
+    height: 80px;
+    display:none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+   
+}
+
+.right-arrow {
+    width: 30px;
+    height: 80px;
+    display:none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    
+}
+
+
+
+.sekcija2{
+    width:100%;
+    padding:15px 0px 50px 0px;
+}
+.menu >h2{
+    margin:0px;
+    font-size:20px;
+    font-weight: 500;
+}
+.menu >h1{
+    font-weight:900;
+    font-size: 20px;
+    margin:10px 0px 30px 0px;
+}
+.picture{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.display1{
+    display: none;
+}
+.display2{
+    display: none;
+}
+.kartica{
+    margin-bottom:50px;
+}
+.right >h1{
+    font-weight:900;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.right >p{
+    font-size:12px;
+    margin-top:0px;
+}
+.cena{
+    font-weight: 700;
+}
+.menu >a{
+    border:1px solid #F0542C;
+    padding: 10px 33%;
+    border-radius: 25px;
+    font-weight: 900;
+}
+
+.burger{
+    width:100%;
+    height:200px;
+    margin:20px 0px;
+}
+.black2{
+    padding: 45px 0px 0px 20px;
+    
+}
+.cena1{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.black2 >h1{
+    font-size: 15px;
+    font-weight: 700;
+}
+.black2 >a{
+    padding:7px 20px;
+    border-radius: 25px;
+    font-weight: 900;
+    font-size: 12px;
+}
+.paragraff{
+    font-size:10px;
+    margin-top:0px;
+    
+}
+
+.kuvar{
+    width:100%;
+    padding:30px 20px 0px 20px;
+    position: relative;
+}
+.big{
+    width:100%;
+    height:400px;
+}
+.small{
+    width:40%;
+    height:220px;
+    position: absolute;
+    bottom: -25px;
+    right: 20px;
+}
+.about-us{
+    width:100%;
+    
+    padding:20px 10px;
+    
+}
+.about-us >h2{
+    margin-bottom:0px;
+}
+.about-us >h1{
+    font-size:20px;
+    margin-top:0px;
+    padding-right: 55px;
+    
+}
+.about-us >p{
+    font-size: 13px;
+    line-height: 20px;
+    padding:0px 6px;
+}
+.jes{
+    width:100px;
+    height:80px;
+}
+
+
+.video{
+    width:100%;
+    height:300px;
+}
+.black3{
+   
+    padding:0px 20px;
+
+}
+.black3 >h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding: 0px 70px;
+    margin-top:0px;
+}
+.black3 >p{
+    font-weight: 700;
+    margin-top:0px;
+}
+.play{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.customers{
+    width:100%;
+    padding:30px 15px;
+    position: relative;
+}
+.customers >h2{
+    margin:0px;
+    font-size:20px;
+    font-weight: 500;
+}
+.customers >h1{
+    font-size:20px;
+    margin-top:10px;
+}
+.paragraf{
+    letter-spacing: 0px;
+    font-size: 14px;
+    margin-top: 0px;
+    line-height: 20px;
+    
+}
+.left-arrow1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:1px solid #6E6E6E;
+    display:none;
+    position:relative;
+   
+    
+}
+
+.right-arrow1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:1px solid #6E6E6E;
+   display:none;
+   position:relative;
+   
+    
+}
+.profpic{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.name{
+    font-weight:700;
+    margin-bottom: 0px;
+}
+.stars{
+    width:60px;
+    height:10px;
+    margin-bottom: 50px;
+}
+.display4{
+    display: none;
+}
+.circle{
+    width:300px;
+    height:300px;
+    margin-bottom:20px;
+    position: relative;
+}
+.black4{
+    width:80%;
+    height:80%;
+    border-radius: 50%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border:1px dashed #6E6E6E;
+    opacity:0;
+}
+.display5{
+ display: none;
+}
+
+
+
+.stil >h1{
+    font-weight: 900;
+    font-size:20px;
+}
+.stil >p{
+    font-size:13px;
+    margin:2px 0px;
+}
+p.tel{
+    margin-top:5px;
+    font-size:15px;
+    font-weight: 900;
+}
+.connected{
+    width:100%;
+    padding:10px ;
+}
+
+.connected >h1{
+    
+    font-weight: 900;
+    font-size:20px;
+
+}
+.polje{
+    width:100%;
+    height:30px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    border:1px solid #e8e3e3;
+    padding:2px;
+    font-size:13px;
+}
+.polje >a{
+   
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 5px 12px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+
+}
+.connected >p{
+    font-size:10px;
+}
+.ikone{
+    display:flex;
+    justify-content: space-between;
+    padding:50px 60px;
+    position: relative;
+}
+.icon{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border:1px dashed #F0542C;
+    position:relative;
+    
+}
+.ikone:after{
+    content: '';
+    width:98%;
+    height:1px;
+    background-color: #e8e3e3;
+    position:absolute;
+    bottom:0px;
+    right:2px;
+    transform: translate(0px,-25px);
+    margin-bottom:2px;
+}
+.copyright{
+    width:100%;
+    height:50px;
+    text-align: center;
+    padding: 0 60px;
+    font-size:10px;
+}
+@media screen and (min-width: 768px){
+    .sekcija1{
+       height: 400px;
+    }
+    .black1{
+        padding:0px 240px;
+    
+    }
+    .black1 >h1{
+        font-size:30px;
+        
+    }
+    .maxican{
+        font-size: 75px;
+        bottom: -35px;
+        left: 0px;
+    }
+
+    .burgers{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .kartica{
+        align-items:flex-start;
+        width:50%;
+        text-align:left;
+        padding:0px 10px;
+    }
+    .display1{
+        display: inline-block;
+    }
+    .menu >a{
+        
+        padding: 10px 320px;
+       
+    }
+    .right >p{
+        word-spacing: 5px;
+        line-height: 20px;
+    }
+
+    .burger{
+        height:300px;
+        margin:0px;
+    }
+    .black2{
+        padding: 100px 200px 5px 20px;
+    }
+    .black2 >h1{
+        font-size:30px;
+       margin:10px 0px 2px 0px;
+    }
+    .paragraff{
+        font-size:13px;
+        line-height: 15px;
+        padding-right:230px;
+        
+    }
+    .cena1{
+        font-size:25px;
+    }
+
+
+    .fl{
+        display:flex;
+        justify-content: space-between;
+       
+       
+    }
+    .kuvar{
+        width:50%;
+        padding:125px 10px 0px 20px;
+    }
+    .about-us{
+        width:50%;
+        padding-right: 30px;
+    }
+    .small{
+        bottom: 100px;
+        right: -5px;
+    }
+    .about-us >h1{
+        font-size: 30px;
+        padding-right: 85px;
+    }
+    .about-us >p{
+        font-size: 14px;
+        line-height: 25px;
+       
+    }
+
+    .video{
+        height:400px;
+    }
+    .black3 >h1{
+        font-size:40px;
+        padding:0px 170px;
+        margin-bottom:0px;
+    }
+
+    .paragraf {
+        
+        padding:10px 95px;
+        
+    }
+    .display3{
+        display: none;
+    }
+    .display4{
+        display: flex;
+    }
+    .krugovi{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .display5{
+        display: inline-block;
+    }
+    .circle{
+        width:350px;
+        height: 350px;
+        
+    }
+
+
+    .new-york{
+        width:50%;
+    }
+    .california{
+        width:50%;
+    }
+    .raspored{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:100px 20px 0px 20px;
+    }
+    .ikone {
+        padding: 50px 280px;
+    }
+    
+}
+@media screen and (min-width:   1024px) {
+
+    
+    .container{
+        max-width:1100px;
+        width:100%;
+        margin: 0 auto;
+    }
+    .nav1{
+        
+        opacity:0;
+        display:none;
+    }
+    .nav2{
+        
+        opacity:1;
+        display:inline-block;
+        position: fixed;
+        z-index:1;
+        
+    }
+    .fl{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+
+    .sekcija1{
+        
+        height: 400px;
+    }
+    .black1{
+        padding:40px 400px;
+    }
+    .black1 >h1{
+        font-size:40px;
+        
+    }
+    .maxican{
+        font-size: 55px;
+        bottom: -30px;
+        left: 5px;
+    }
+
+    .left-arrow {
+   
+        display:inline;
+        
+    }
+    
+    .right-arrow {
+        
+       display: inline;
+        
+    }
+
+
+    .burgers{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .kartica{
+        width:50%;
+       display:flex;
+       flex-wrap: nowrap;
+       flex-direction: row;
+       text-align: left;
+       justify-content: space-between;
+    }
+    
+    .right{
+        width:70%;
+        padding-right:0px;
+    }
+    .picture{
+        width:120px;
+        height: 120px;
+    }
+    .display2{
+        display:flex;
+    }
+    .display1{
+        display:flex;
+    }
+
+    .menu{
+        padding:0px 40px;
+    }
+
+    
+    .menu >a{
+        padding: 10px 44%;
+    }
+    .menu >a:hover{
+       background-color: #F0542C;
+       color:white;
+    }
+
+
+    .card{
+        display: flex;
+        flex-direction: row;
+        
+        }
+    .burger{
+        width:50%;
+        height:300px;
+        margin:20px 0px;
+    }
+    .black2{
+        padding: 100px 0px 10px 25px;
+    }
+        
+    .black2 >h1{
+        font-size:22px;
+    }
+
+    .sekcija4{
+        padding-bottom: 30px;
+    }
+    .kuvar{
+        width:49%;
+        height:600px;
+        z-index: 0;
+    }
+    .about-us{
+        width:49%;
+        padding:20px 50px;
+    }
+    .big{
+        height:500px;
+    }
+    .small{
+        height:275px;
+        bottom: 45px;
+        right: 0px;
+    }
+    .about-us >h1{
+        font-size: 40px;
+    }
+    .about-us >p{
+        font-size: 14px;
+    }
+
+    .video{
+        width:100%;
+        height:350px;
+    }
+        
+    .black3 >h1{
+        font-size: 45px;
+        line-height: 40px;
+        padding: 0px 270px;
+    }
+
+    .paragraf{
+        width:70%;
+    }
+      
+    .paragraf >p{
+        padding: 0px 75px;
+        text-align: center;
+    }
+    .strelice{
+        display:flex;
+        justify-content: space-between;
+    }
+    .left-arrow1 {
+        display:inline;
+            
+    }
+        
+    .right-arrow1 {
+            
+        display: inline;
+            
+    }
+    .krugovi{
+        display:flex;
+        justify-content: space-between;
+    }
+    .display5{
+        display: inline-block;
+    }
+    .circle{
+        width:200px;
+        height:200px;
+    }
+    
+
+
+    .raspored{
+        display: flex;
+    }
+    .new-york{
+        width:30%;
+    }
+    .california{
+        width:30%;
+    }
+    .connected{
+        width:35%;
+    }
+    .ikone {
+        padding: 50px 400px;
+    }
+
+    .black4:hover{
+        opacity: 1;
+    }
+    .icon:hover{
+        background-color: #F0542C;
+        color:white;
+    }
+    .black2 >a:hover{
+        background-color: transparent;
+        color:#F2C64D;
+        border:1px solid #F2C64D;
+    }
+    .linkovi:hover{
+            
+        color:#F2C64D;
+    }
+       
+
+
+
+
+
+
+}
+@media screen and (min-width:   1366px) {
+
+    
+        .container{
+            max-width:1100px;
+            width:100%;
+            margin: 0 auto;
+        }
+        .nav1{
+            
+            opacity:0;
+            display:none;
+        }
+        .nav2{
+            
+            opacity:1;
+            display:inline-block;
+            position: fixed;
+            z-index:1;
+            
+        }
+        .fl{
+            display:flex;
+            justify-content: space-between;
+        }
+        
+
+        .sekcija1{
+            
+            height: 400px;
+        }
+        .black1{
+            padding:40px 479px;
+        }
+        .black1 >h1{
+            font-size:40px;
+            
+        }
+        .maxican{
+            font-size: 55px;
+            bottom: -31px;
+            left: 88px;
+        }
+
+        .left-arrow {
+       
+            display:inline;
+            
+        }
+        
+        .right-arrow {
+            
+           display: inline;
+            
+        }
+
+
+        .burgers{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .kartica{
+            width:50%;
+           display:flex;
+           flex-wrap: nowrap;
+           flex-direction: row;
+           text-align: left;
+           justify-content: space-between;
+        }
+        
+        .right{
+            width:70%;
+            padding-right:50px;
+        }
+        .picture{
+            width:120px;
+            height: 120px;
+        }
+        .display2{
+            display:flex;
+        }
+        .display1{
+        display:flex;
+        }
+
+        .menu{
+            padding:0px 100px;
+        }
+    
+        
+        .menu >a{
+            padding: 10px 44%;
+        }
+        .menu >a:hover{
+           background-color: #F0542C;
+           color:white;
+        }
+
+
+        .card{
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .burger{
+            width:50%;
+            height:300px;
+            margin:20px 0px;
+        }
+        .black2{
+            padding: 100px 160px 10px 25px;
+        }
+        
+        .black2 >h1{
+            font-size:22px;
+        }
+
+        
+        .kuvar{
+            width:49%;
+            height:600px;
+            z-index: 0;
+        }
+        .about-us{
+            width:49%;
+            padding:20px 50px;
+        }
+        .big{
+            height:500px;
+        }
+        .small{
+            height:275px;
+            bottom: 45px;
+            right: 0px;
+        }
+        .about-us >h1{
+            font-size: 40px;
+        }
+        .about-us >p{
+            font-size: 14px;
+        }
+
+        .video{
+            width:100%;
+            height:350px;
+        }
+        
+        .black3 >h1{
+            font-size: 45px;
+            line-height: 40px;
+            padding: 0px 430px;
+        }
+
+        .paragraf{
+            width:70%;
+        }
+      
+        .paragraf >p{
+            padding: 0px 100px;
+            text-align: center;
+        }
+        .strelice{
+            display:flex;
+            justify-content: space-between;
+        }
+        .left-arrow1 {
+           
+            display:inline;
+            
+        }
+        
+        .right-arrow1 {
+            
+           display: inline;
+            
+        }
+        .krugovi{
+            display:flex;
+            justify-content: space-between;
+        }
+        .display5{
+            display: inline-block;
+        }
+        .circle{
+            width:250px;
+            height:250px;
+        }
+    
+
+
+        .raspored{
+            display: flex;
+        }
+        .new-york{
+            width:30%;
+        }
+        .california{
+            width:30%;
+        }
+        .connected{
+            width:35%;
+        }
+        .ikone {
+            padding: 50px 440px;
+        }
+
+        .black4:hover{
+            opacity: 1;
+        }
+         .icon:hover{
+             background-color: #F0542C;
+             color:white;
+        }
+         .black2 >a:hover{
+            background-color: transparent;
+            color:#F2C64D;
+            border:1px solid #F2C64D;
+        }
+        .linkovi:hover{
+            
+            color:#F2C64D;
+        }
+           
+
+
+
+
+    
+    
+}
